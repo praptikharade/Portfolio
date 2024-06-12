@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px; 
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.hero p{
+    font-size: 1.5em;
+    margin: 10px 0;
+    line-height: 1.2;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    padding: 0 50px;
+    box-sizing: border-box;
+}
+
+.intro-text {
+    max-width: 50%;
+}
+
+.intro-text p {
+    font-size: 2em;
+    font-style: italic;
+}
+
+.intro-text h1 {
+    font-size: 5em;
+    margin: 0;
+}
+
+.image-container {
+    max-width: 50%;
+    text-align: right;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}

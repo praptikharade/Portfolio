@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Custom Form</title>
+    <link rel="stylesheet" href="styles(Contact).css">
+    <script src="script(Contact).js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">Prapti Kharade<sup>PK</sup></div>
+        <nav>
+            <ul>
+                <li><a href="Portfolio.html">Portfolio</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Skills.html">Skills</a></li>
+                <li><a href="Projects.html">Projects</a></li>
+                <li><a href="Resume.html">Resume</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <br><br><br><p>To reach out to me fill the following</p>
+    <div class="form-container">
+        <form id="customForm">
+            <div class="form-group">
+                <label for="name">Your name here</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                <div class="error-message" id="nameError">Please fill out this field.</div>
+            </div>
+            <div class="form-group">
+                <label for="email">Your email here</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                <div class="error-message" id="emailError">Please fill out this field.</div>
+            </div>
+            <div class="form-group">
+                <label for="summary">Few words describing yourself</label>
+                <textarea id="summary" name="summary" placeholder="Describe yourself" rows="4"></textarea>
+            </div>
+            <div class="form-group">
+                <input type="checkbox" id="privacy" name="privacy" required>
+                <label for="privacy">By sending my details, I have read and accept the Privacy policy.</label>
+                <div class="error-message" id="privacyError">Please accept the privacy policy.</div>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <br><br><br><br>
+    <main>
+        <section id="contact" class="contact-section">
+            <h1>You can also directly reach out to me via email or phone</h1>
+            <div class="contact-info">
+                <p>Email: <a href="mailto:pk@gmail.com">pk@gmail.com</a></p>
+                <p>Phone: <a href="tel:+1234567890">+1 234 567 890</a></p>
+            </div>
+        </section>
+    </main>
+
+
+</body>
+</html>

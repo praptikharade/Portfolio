@@ -1,0 +1,94 @@
+/* Resetting some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: url('KI.png') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.hero p {
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+.hero h1 {
+    font-size: 4em;
+    margin: 10px 0;
+    line-height: 1.2;
+}
+
+.container {
+    text-align: center;
+}
+
+.styled-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    border-radius: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.styled-button svg {
+    margin-left: 10px;
+    transition: transform 0.3s;
+}
+
+.styled-button:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.styled-button:hover svg {
+    transform: translateX(5px);
+}
+footer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+
